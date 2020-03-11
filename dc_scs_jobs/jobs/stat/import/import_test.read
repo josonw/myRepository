@@ -1,0 +1,4 @@
+
+ cat import_test.txt  | while read tb path; do cat import_test.py | sed "s/import_test_table/$tb/g; s/import_test_path/$path/g;" > $tb.py; done
+
+
