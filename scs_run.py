@@ -11,3 +11,5 @@ from dc_scs import app
 
 if app.config['DEBUG']:
     app.run(host=app.config['APP_HOST'], port=app.config['APP_PORT'], debug=app.config['DEBUG'])
+
+跟改第一次版本
